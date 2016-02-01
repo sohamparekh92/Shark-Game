@@ -1,0 +1,147 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Soham's Animation</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>700</frameCap>
+<framesAreCapped>false</framesAreCapped>
+
+<frameMax>600</frameMax>
+<username>sohamap</username>
+
+<view>
+  <width>1280</width>
+  <height>720</height>
+</view>
+
+<world>
+  <width>2500</width>
+  <height>960</height>
+</world>
+
+<clock>
+  <fpsLoc x="10" y="10"/>
+  <secondsLoc x="10" y="30"/>
+</clock>
+
+<back3>
+  <file>images/cave3J.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>4</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</back3>
+
+<back2>
+  <file>images/cave2J.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</back2>
+
+<back1>
+  <file>images/cave1J.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</back1>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <unused>0</unused>
+</font>
+
+<bubble>
+  <file>images/bubble2.png</file>
+  <startLoc x="120" y="540"/>
+
+  <frames>4</frames>
+  <frameInterval>90</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>26</width>
+  <height>25</height>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <speedS>400</speedS>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</bubble>
+
+<shirky>
+  <file>images/shirkyF.png</file>
+  <startLoc x="120" y="540"/>
+
+  <frames>4</frames>
+  <frameInterval>90</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>303</width>
+  <height>128</height>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <speedS>200</speedS>
+  <transparency>true</transparency>
+</shirky>
+
+<craby>
+  <file>images/craby.png</file>
+  <startLoc x="120" y="240"/>
+
+  <frames>2</frames>
+  <frameInterval>900</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>112</width>
+  <height>48</height>
+  <speedX>10</speedX>
+  <speedY>10</speedY>
+  <transparency>true</transparency>
+</craby>
+
+<crabster>
+  <file>images/crabfullF.png</file>
+  <startLoc x="120" y="40"/>
+
+  <frames>2</frames>
+  <frameInterval>900</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>498</width>
+  <height>550</height>
+  <speedX>2</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</crabster>
+
+</GameData>
